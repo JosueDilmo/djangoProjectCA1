@@ -28,6 +28,10 @@ The data should be complex enough, containing different types of values (Strings
 
 ### Assignment 1 Solution
 
+<b>To run the web application:</b><br>
+<i> py manage.py runserver</i></br>
+http://127.0.0.1:8000/<br>
+
 The project root directory is called djangoProject (outer directory) and it is the container folder for the project. 
 Inside this directory, there are:
 
@@ -163,9 +167,23 @@ You can reuse the code for CA1 for your server-side code.
 
 ### Assignment 2 Solution
 
-* TBD
+This project started with the first continuous assignment which created all the structure, database, and views. This second assignment implemented the authentication system which is responsible for the login/ logout, signup and reset of password which are handled by the Django Auth System.
+Following the tutorials of Django Login and Logout, Signup and Password Reset was possible to create and implement in an easy, quicker, and friendly way this robust authentication system.
+The Django Auth system is a built-in functionality which handles user accounts, groups, permissions and cookie-based user sessions, this system works out of the box and is customizable to suits the project needs.
+
+Started with this tutorial:
+[Django Login and Logout](https://learndjango.com/tutorials/django-login-and-logout-tutorial)
+
+Second:
+[Django Signup](https://learndjango.com/tutorials/django-signup-tutorial)
+
+Third:
+[Django Password Reset](https://learndjango.com/tutorials/django-password-reset-tutorial)
+
 
 ## References:
 - [ Django Tutorial ](https://docs.djangoproject.com/en/4.1/intro/tutorial01/)
+- [ Django Authentication](https://docs.djangoproject.com/en/4.0/topics/auth/)
 - [ Django Templates ](https://docs.djangoproject.com/en/4.1/topics/templates/)
 - [ Django Documentation ](https://docs.djangoproject.com/en/4.1/)
+- [ Bootstrap Documentation ](https://mdbootstrap.com/)
